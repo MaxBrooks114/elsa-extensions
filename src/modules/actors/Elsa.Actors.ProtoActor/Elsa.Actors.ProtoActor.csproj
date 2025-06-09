@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>
+            Provides ProtoActor services to the system. Other modules can add actors to the ActorSystem.
+        </Description>
+        <PackageTags>elsa extension module runtime protoactor actors</PackageTags>
+        <RootNamespace>Elsa.Actors.ProtoActor</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup Label="ProtoActor">
+		<PackageReference Include="Proto.Actor" />
+		<PackageReference Include="Proto.Cluster" />
+		<PackageReference Include="Proto.Cluster.TestProvider" />
+		<PackageReference Include="Proto.OpenTelemetry" />
+		<PackageReference Include="Proto.Persistence" />
+		<PackageReference Include="Proto.Remote" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
+        <PackageReference Include="System.Text.Json" />
+    </ItemGroup>
+
+    <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
+        <PackageReference Include="Elsa.Features" />
+        <PackageReference Include="Elsa.Tenants" />
+        <PackageReference Include="Elsa.Workflows.Core" />
+    </ItemGroup>
+
+</Project>

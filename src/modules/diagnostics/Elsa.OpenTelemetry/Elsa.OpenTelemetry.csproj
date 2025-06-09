@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>
+            Provides OpenTelemetry sources for tracing workflow and activity execution.
+        </Description>
+        <PackageTags>elsa module open-telemetry</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
+        <PackageReference Include="Elsa.Workflows.Core" />
+    </ItemGroup>
+
+</Project>

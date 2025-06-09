@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>
+            Provides EF Core migrations for Quartz.NET.
+        </Description>
+        <PackageTags>elsa extension module scheduling quartz ef core migrations</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AppAny.Quartz.EntityFrameworkCore.Migrations.SqlServer" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
+        <PackageReference Include="Quartz.Serialization.Json" />
+
+		<!-- Used to resolve the AppAny.Quartz.EntityFrameworkCore.Migrations.SqlServer package warning. -->
+		<PackageReference Include="Microsoft.Data.SqlClient" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\persistence\Elsa.Persistence.EFCore.Common\Elsa.Persistence.EFCore.Common.csproj" />
+        <ProjectReference Include="..\Elsa.Scheduling.Quartz\Elsa.Scheduling.Quartz.csproj" />
+    </ItemGroup>
+
+</Project>

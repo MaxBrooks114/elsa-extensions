@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <Description>
+            Provides integration with the Quartz.NET library and provide am implementation of Elsa's IJobScheduler using Quartz.NET.
+        </Description>
+        <PackageTags>elsa extension module scheduling quartz</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Quartz.Extensions.Hosting" />
+    </ItemGroup>
+
+    <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
+        <PackageReference Include="Elsa.Scheduling"/>
+    </ItemGroup>
+
+</Project>
