@@ -13,12 +13,10 @@
         <PackageReference Include="Proto.Cluster.CodeGen" />
     </ItemGroup>
 
-    <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Workflows.Runtime" />
-    </ItemGroup>
-
+    
     <ItemGroup>
-      <ProjectReference Include="..\..\actors\Elsa.Actors.ProtoActor\Elsa.Actors.ProtoActor.csproj" />
+      <ProjectReference Include="D:\repos\elsa-core-main\src\actors\Elsa.Actors.ProtoActor\Elsa.Actors.ProtoActor.csproj" />
+		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>
 
     <ItemGroup>

@@ -8,7 +8,10 @@
     </PropertyGroup>
 
     <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Caching" />
+        <!-- <PackageReference Include="Elsa.Caching" /> -->
 	</ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Caching\Elsa.Caching.csproj" />
+    </ItemGroup>
 	
 </Project>

@@ -6,7 +6,7 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <PackageReference Include="Elsa.Common" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Common\Elsa.Common.csproj" />
     </ItemGroup>
 
     <ItemGroup>

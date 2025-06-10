@@ -23,9 +23,14 @@
     </ItemGroup>
 
     <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Features" />
-        <PackageReference Include="Elsa.Tenants" />
-        <PackageReference Include="Elsa.Workflows.Core" />
+        <!-- <PackageReference Include="Elsa.Features" /> -->
+        <!-- <PackageReference Include="Elsa.Tenants" /> -->
+        <!-- <PackageReference Include="Elsa.Workflows.Core" /> -->
     </ItemGroup>
-
+    <ItemGroup>
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Features\Elsa.Features.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Tenants\Elsa.Tenants.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Core\Elsa.Workflows.Core.csproj" />
+    </ItemGroup>
+	
 </Project>

@@ -7,8 +7,10 @@
         <PackageTags>elsa module open-telemetry</PackageTags>
     </PropertyGroup>
 
-    <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Workflows.Core" />
+    <ItemGroup Label="Elsa">
+      
+	    <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Core\Elsa.Workflows.Core.csproj" />
     </ItemGroup>
+
 
 </Project>

@@ -19,8 +19,11 @@
     </ItemGroup>
 
     <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Common"/>
-        <PackageReference Include="Elsa.Tenants"/>
+        <!-- <PackageReference Include="Elsa.Common"/> -->
+        <!-- <PackageReference Include="Elsa.Tenants"/> -->
     </ItemGroup>
-
+    <ItemGroup>
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Common\Elsa.Common.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Tenants\Elsa.Tenants.csproj" />
+    </ItemGroup>
 </Project>

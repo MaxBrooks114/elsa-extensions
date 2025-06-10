@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Elsa.Studio.Workflows" />
+      <ProjectReference Include="D:\repos\elsa-studio-main\src\modules\Elsa.Studio.Workflows\Elsa.Studio.Workflows.csproj" />
     </ItemGroup>
 
     <ItemGroup>

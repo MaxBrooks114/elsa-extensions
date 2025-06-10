@@ -13,7 +13,8 @@
     </ItemGroup>
 
     <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Scheduling"/>
     </ItemGroup>
-
+    <ItemGroup>
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Scheduling\Elsa.Scheduling.csproj" />
+    </ItemGroup>
 </Project>

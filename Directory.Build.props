@@ -23,7 +23,7 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <AnalysisModeDocumentation>Default</AnalysisModeDocumentation>
         <AnalysisLevelDocumentation>latest</AnalysisLevelDocumentation>
-
+		
 		<NuGetAudit>enable</NuGetAudit>
 		<NuGetAuditMode>all</NuGetAuditMode>
 		
@@ -40,11 +40,7 @@
 		<NoWarn>$(NoWarn);IL2026;IL2046;IL2057;IL2067;IL2070;IL2072;IL2075;IL2087;IL2091</NoWarn>
 	</PropertyGroup>
     
-	<PropertyGroup Label="PackageVersions">
-        <ElsaVersion>3.6.0-preview.3036</ElsaVersion>
-		<ElsaStudioVersion>3.6.0-preview.1029</ElsaStudioVersion>
-    </PropertyGroup>
-
+	
     <Import Project=".build\ElsaCore.ProjectReferences.targets" />
 
 </Project>

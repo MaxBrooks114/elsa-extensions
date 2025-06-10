@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Elsa.Api.Common" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\common\Elsa.Api.Common\Elsa.Api.Common.csproj" />
     </ItemGroup>
 
     <ItemGroup>

@@ -17,9 +17,9 @@
         <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
     </ItemGroup>
 
-    <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Identity" />
-        <PackageReference Include="Elsa.Workflows.Runtime" />
+    <ItemGroup>
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Identity\Elsa.Identity.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>
 
 </Project>

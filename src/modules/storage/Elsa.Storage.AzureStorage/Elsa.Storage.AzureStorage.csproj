@@ -9,7 +9,7 @@
     
     <ItemGroup>
         <PackageReference Include="Azure.Storage.Blobs" />
-        <PackageReference Include="Elsa" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa\Elsa.csproj" />
     </ItemGroup>
 
 </Project>

@@ -13,8 +13,8 @@
         <PackageReference Include="WebhooksCore" />
     </ItemGroup>
 
-    <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Workflows.Runtime" />
+    <ItemGroup>
+		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>
 
 </Project>

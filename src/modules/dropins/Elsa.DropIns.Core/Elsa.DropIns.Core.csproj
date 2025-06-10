@@ -12,7 +12,10 @@
     </ItemGroup>
 
     <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-		<PackageReference Include="Elsa.Features" />
+		<!-- <PackageReference Include="Elsa.Features" /> -->
 	</ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Features\Elsa.Features.csproj" />
+    </ItemGroup>
 	
 </Project>

@@ -13,7 +13,9 @@
     </ItemGroup>
 
     <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Workflows.Management" />
+        <!-- <PackageReference Include="Elsa.Workflows.Management" /> -->
     </ItemGroup>
-
+    <ItemGroup>
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Management\Elsa.Workflows.Management.csproj" />
+    </ItemGroup>
 </Project>

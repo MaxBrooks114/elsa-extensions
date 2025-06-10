@@ -8,25 +8,25 @@
 
     <ItemGroup>
         <PackageReference Include="DistributedLock.FileSystem" />
-        <PackageReference Include="Elsa" />
-		<PackageReference Include="Elsa.Expressions" />
-		<PackageReference Include="Elsa.Expressions.JavaScript" />
-		<PackageReference Include="Elsa.Expressions.JavaScript.Libraries" />
-		<PackageReference Include="Elsa.Expressions.CSharp" />
-		<PackageReference Include="Elsa.Expressions.Liquid" />
-		<PackageReference Include="Elsa.Expressions.Python" />
-        <PackageReference Include="Elsa.Http" />
-        <PackageReference Include="Elsa.Identity" />
-        <PackageReference Include="Elsa.Scheduling" />
-		<PackageReference Include="Elsa.Workflows.Api" />
-		<PackageReference Include="Elsa.Workflows.Runtime" />
-		<PackageReference Include="Elsa.Workflows.Runtime.Distributed" />
-		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
-		<PackageReference Include="Proto.Persistence.Sqlite" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
+        <PackageReference Include="Proto.Persistence.Sqlite" />
         <PackageReference Include="WebhooksCore" />
-	</ItemGroup>
+    </ItemGroup>
 	
-	<ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa\Elsa.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Expressions\Elsa.Expressions.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Expressions.JavaScript\Elsa.Expressions.JavaScript.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Expressions.JavaScript.Libraries\Elsa.Expressions.JavaScript.Libraries.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Expressions.CSharp\Elsa.Expressions.CSharp.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Expressions.Liquid\Elsa.Expressions.Liquid.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Expressions.Python\Elsa.Expressions.Python.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Http\Elsa.Http.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Identity\Elsa.Identity.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Scheduling\Elsa.Scheduling.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Api\Elsa.Workflows.Api.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime.Distributed\Elsa.Workflows.Runtime.Distributed.csproj" />
 		<ProjectReference Include="..\..\modules\agents\Elsa.Agents.Persistence.EFCore.MySql\Elsa.Agents.Persistence.EFCore.MySql.csproj" />
 		<ProjectReference Include="..\..\modules\agents\Elsa.Agents.Persistence.EFCore.PostgreSql\Elsa.Agents.Persistence.EFCore.PostgreSql.csproj" />
 		<ProjectReference Include="..\..\modules\agents\Elsa.Agents.Persistence.EFCore.Sqlite\Elsa.Agents.Persistence.EFCore.Sqlite.csproj" />
@@ -58,6 +58,6 @@
 		<ProjectReference Include="..\..\modules\servicebus\Elsa.ServiceBus.MassTransit\Elsa.ServiceBus.MassTransit.csproj" />
 		<ProjectReference Include="..\..\modules\storage\Elsa.Storage.AzureStorage\Elsa.Storage.AzureStorage.csproj" />
 		<ProjectReference Include="..\ElsaStudioWebAssembly\ElsaStudioWebAssembly.csproj"/>
-	</ItemGroup>
+    </ItemGroup>
 
 </Project>

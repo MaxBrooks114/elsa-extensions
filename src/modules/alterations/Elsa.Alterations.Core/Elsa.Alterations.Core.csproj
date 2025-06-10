@@ -9,10 +9,17 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+        <PackageReference Include="Microsoft.Extensions.Options" />
     </ItemGroup>
 
-    <ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-        <PackageReference Include="Elsa.Workflows.Runtime" />
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\..\elsa-core-main\src\common\Elsa.Mediator\Elsa.Mediator.csproj" />
+      <ProjectReference Include="..\..\..\..\..\elsa-core-main\src\modules\Elsa.Common\Elsa.Common.csproj" />
+      <ProjectReference Include="..\..\..\..\..\elsa-core-main\src\modules\Elsa.Workflows.Core\Elsa.Workflows.Core.csproj" />
+      <ProjectReference Include="..\..\..\..\..\elsa-core-main\src\modules\Elsa.Workflows.Management\Elsa.Workflows.Management.csproj" />
+      <ProjectReference Include="..\..\..\..\..\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>
 
 </Project>

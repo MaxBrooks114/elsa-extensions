@@ -10,6 +10,7 @@
     <ItemGroup>
         <ProjectReference Include="..\..\servicebus\Elsa.ServiceBus.MassTransit\Elsa.ServiceBus.MassTransit.csproj" />
         <ProjectReference Include="..\Elsa.Caching.Distributed\Elsa.Caching.Distributed.csproj" />
+		<Project Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>
 
 </Project>

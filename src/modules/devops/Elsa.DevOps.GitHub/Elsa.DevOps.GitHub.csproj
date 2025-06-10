@@ -8,7 +8,7 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <PackageReference Include="Elsa" />
+        <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa\Elsa.csproj" />
         <PackageReference Include="Octokit" />
     </ItemGroup>
 
