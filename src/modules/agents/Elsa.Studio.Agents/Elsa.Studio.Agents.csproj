@@ -7,9 +7,7 @@
 
     <ItemGroup>
       <ProjectReference Include="D:\repos\elsa-studio-main\src\modules\Elsa.Studio.Workflows\Elsa.Studio.Workflows.csproj" />
-    </ItemGroup>
 
-    <ItemGroup>
       <ProjectReference Include="..\Elsa.Agents.Models\Elsa.Agents.Models.csproj" />
     </ItemGroup>
 

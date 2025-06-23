@@ -9,9 +9,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Http\Elsa.Http.csproj" />
-	</ItemGroup>
-	
-    <ItemGroup>
+
       <ProjectReference Include="..\..\http\Elsa.Http.Webhooks\Elsa.Http.Webhooks.csproj" />
       <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>

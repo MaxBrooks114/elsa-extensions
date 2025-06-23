@@ -17,4 +17,5 @@
     <ItemGroup>
         <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Scheduling\Elsa.Scheduling.csproj" />
     </ItemGroup>
+
 </Project>

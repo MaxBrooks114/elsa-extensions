@@ -14,5 +14,5 @@
     <ItemGroup>
         <ProjectReference Include="D:\repos\elsa-core-main\src\common\Elsa.Api.Common\Elsa.Api.Common.csproj" />
         <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
-    </ItemGroup>
+	</ItemGroup>
 </Project>

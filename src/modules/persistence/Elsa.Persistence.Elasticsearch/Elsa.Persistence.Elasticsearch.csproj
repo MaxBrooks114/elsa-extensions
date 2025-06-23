@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Elastic.Clients.Elasticsearch" />
+		<PackageReference Include="Elastic.Clients.Elasticsearch" />
         <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Features\Elsa.Features.csproj" />
         <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>

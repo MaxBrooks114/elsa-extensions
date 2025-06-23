@@ -5,14 +5,12 @@
 		<PackageTags>elsa extension module activity connection abstraction api</PackageTags>
 	</PropertyGroup>
 	
-	<ItemGroup>
-		<ProjectReference Include="D:\repos\elsa-core-main\src\common\Elsa.Api.Common\Elsa.Api.Common.csproj" />
-	</ItemGroup>
-	
+
 	<ItemGroup>
 		<ProjectReference Include="..\Elsa.Connections.Core\Elsa.Connections.Core.csproj" />
 		<ProjectReference Include="..\Elsa.Connections.Models\Elsa.Connections.Models.csproj" />
 		<ProjectReference Include="..\Elsa.Connections.Persistence\Elsa.Connections.Persistence.csproj" />
+		<ProjectReference Include="D:\repos\elsa-core-main\src\common\Elsa.Api.Common\Elsa.Api.Common.csproj" />
 	</ItemGroup>
 	
 </Project>

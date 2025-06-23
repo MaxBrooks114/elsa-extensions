@@ -12,6 +12,6 @@
 	</ItemGroup>
     <ItemGroup>
         <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Caching\Elsa.Caching.csproj" />
-    </ItemGroup>
+	</ItemGroup>
 	
 </Project>

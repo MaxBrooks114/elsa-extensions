@@ -32,5 +32,5 @@
         <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Tenants\Elsa.Tenants.csproj" />
         <ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Core\Elsa.Workflows.Core.csproj" />
     </ItemGroup>
-	
+
 </Project>
