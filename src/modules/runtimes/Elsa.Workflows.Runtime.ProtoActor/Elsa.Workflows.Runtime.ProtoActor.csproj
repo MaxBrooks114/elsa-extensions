@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="D:\repos\elsa-core-main\src\actors\Elsa.Actors.ProtoActor\Elsa.Actors.ProtoActor.csproj" />
+      <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\actors\Elsa.Actors.ProtoActor\Elsa.Actors.ProtoActor.csproj" />
 		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>
 

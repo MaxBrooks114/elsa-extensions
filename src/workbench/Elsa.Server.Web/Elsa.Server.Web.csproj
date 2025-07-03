@@ -34,7 +34,7 @@
     </ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\modules\actors\Elsa.Actors.ProtoActor\Elsa.Actors.ProtoActor.csproj" />
+	  <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\actors\Elsa.Actors.ProtoActor\Elsa.Actors.ProtoActor.csproj" />
 	  <ProjectReference Include="..\..\modules\agents\Elsa.Agents.Persistence.EFCore.MySql\Elsa.Agents.Persistence.EFCore.MySql.csproj" />
 	  <ProjectReference Include="..\..\modules\agents\Elsa.Agents.Persistence.EFCore.PostgreSql\Elsa.Agents.Persistence.EFCore.PostgreSql.csproj" />
 	  <ProjectReference Include="..\..\modules\agents\Elsa.Agents.Persistence.EFCore.Sqlite\Elsa.Agents.Persistence.EFCore.Sqlite.csproj" />

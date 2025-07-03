@@ -18,7 +18,9 @@
 
 	<ItemGroup>
 
-		<ProjectReference Include="..\..\modules\Elsa.Workflows.Core\Elsa.Workflows.Core.csproj" />
+		<ProjectReference Include="..\..\..\..\..\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
+
+		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Core\Elsa.Workflows.Core.csproj" />
 
 		<Project Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
     </ItemGroup>

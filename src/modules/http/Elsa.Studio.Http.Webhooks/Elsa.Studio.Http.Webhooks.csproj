@@ -10,7 +10,7 @@
     </ItemGroup>
 	
 	<ItemGroup>
-		<ProjectReference Include="D:\repos\elsa-studio-main\src\modules\Elsa.Studio.Shared\Elsa.Studio.Shared.csproj" />
+		<ProjectReference Include="D:\repos\elsa-studio-main\src\framework\Elsa.Studio.Shared\Elsa.Studio.Shared.csproj" />
 		<ProjectReference Include="D:\repos\elsa-studio-main\src\modules\Elsa.Studio.Workflows\Elsa.Studio.Workflows.csproj" />
 	</ItemGroup>
 	
