@@ -10,7 +10,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Elsa.Agents.Core\Elsa.Agents.Core.csproj" />
+      <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\agents\Elsa.Agents.Core\Elsa.Agents.Core.csproj" />
     </ItemGroup>
 
 </Project>

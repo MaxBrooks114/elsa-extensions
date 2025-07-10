@@ -1,8 +1,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
     <!-- Elsa.Studio.Agents -->
     <ItemGroup Condition="'$(UseProjectReferences)' == 'true' and '$(MSBuildProjectName)' == 'Elsa.Studio.Agents'">
-        <ProjectReference Include="$(MSBuildThisFileDirectory)..\..\..\client\studio\src\modules\Elsa.Studio.Workflows\Elsa.Studio.Workflows.csproj"/>
+        <ProjectReference Include="D:\repos\elsa-studio-main\src\modules\Elsa.Studio.Workflows\Elsa.Studio.Workflows.csproj"/>
     </ItemGroup>
 
 </Project>

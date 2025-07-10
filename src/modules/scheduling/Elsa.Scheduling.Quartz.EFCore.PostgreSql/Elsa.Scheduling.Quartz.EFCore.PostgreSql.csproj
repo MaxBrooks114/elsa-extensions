@@ -16,8 +16,8 @@
     </ItemGroup>
     
     <ItemGroup>
-        <ProjectReference Include="..\..\persistence\Elsa.Persistence.EFCore.Common\Elsa.Persistence.EFCore.Common.csproj" />
-        <ProjectReference Include="..\Elsa.Scheduling.Quartz\Elsa.Scheduling.Quartz.csproj" />
+        <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\persistence\Elsa.Persistence.EFCore.Common\Elsa.Persistence.EFCore.Common.csproj" />
+        <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\scheduling\Elsa.Scheduling.Quartz\Elsa.Scheduling.Quartz.csproj" />
     </ItemGroup>
 
 </Project>

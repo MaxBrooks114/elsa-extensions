@@ -14,8 +14,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\actors\Elsa.Actors.ProtoActor\Elsa.Actors.ProtoActor.csproj" />
-        <ProjectReference Include="..\Elsa.Caching.Distributed\Elsa.Caching.Distributed.csproj" />
+        <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\actors\Elsa.Actors.ProtoActor\Elsa.Actors.ProtoActor.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\caching\Elsa.Caching.Distributed\Elsa.Caching.Distributed.csproj" />
     </ItemGroup>
 
     <ItemGroup>

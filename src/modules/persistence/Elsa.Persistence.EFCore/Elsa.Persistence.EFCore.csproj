@@ -8,9 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\alterations\Elsa.Alterations\Elsa.Alterations.csproj" />
-        <ProjectReference Include="..\..\labels\Elsa.Labels\Elsa.Labels.csproj" />
-        <ProjectReference Include="..\Elsa.Persistence.EFCore.Common\Elsa.Persistence.EFCore.Common.csproj" />
+        <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\alterations\Elsa.Alterations\Elsa.Alterations.csproj" />
+        <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\labels\Elsa.Labels\Elsa.Labels.csproj" />
+        <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\persistence\Elsa.Persistence.EFCore.Common\Elsa.Persistence.EFCore.Common.csproj" />
     </ItemGroup>
 
     <ItemGroup>

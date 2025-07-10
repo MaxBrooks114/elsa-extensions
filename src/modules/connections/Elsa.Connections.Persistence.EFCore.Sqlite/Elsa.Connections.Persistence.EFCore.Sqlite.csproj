@@ -12,8 +12,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\persistence\Elsa.Persistence.EFCore.Sqlite\Elsa.Persistence.EFCore.Sqlite.csproj" />
-		<ProjectReference Include="..\Elsa.Connections.Persistence.EFCore\Elsa.Connections.Persistence.EFCore.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\persistence\Elsa.Persistence.EFCore.Sqlite\Elsa.Persistence.EFCore.Sqlite.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\connections\Elsa.Connections.Persistence.EFCore\Elsa.Connections.Persistence.EFCore.csproj" />
 	</ItemGroup>
 
 </Project>

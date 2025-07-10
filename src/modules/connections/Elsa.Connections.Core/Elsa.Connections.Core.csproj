@@ -10,7 +10,7 @@
 		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Common\Elsa.Common.csproj" />
 		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
 
-		<ProjectReference Include="..\Elsa.Connections.Models\Elsa.Connections.Models.csproj" />
-		<ProjectReference Include="..\Elsa.Connections.Persistence\Elsa.Connections.Persistence.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\connections\Elsa.Connections.Models\Elsa.Connections.Models.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\connections\Elsa.Connections.Persistence\Elsa.Connections.Persistence.csproj" />
 	</ItemGroup>
 </Project>

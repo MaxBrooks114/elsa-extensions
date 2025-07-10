@@ -14,15 +14,13 @@
 		<PackageReference Include="MongoDB.Driver.Extensions" />
 	</ItemGroup>
 
-	<ItemGroup Label="Elsa" Condition="'$(UseProjectReferences)' != 'true'">
-		<PackageReference Include="Elsa.Common" />
-		<PackageReference Include="Elsa.Identity" />
-		<PackageReference Include="Elsa.Workflows.Runtime" />
-	</ItemGroup>
 	
 	<ItemGroup>
-		<ProjectReference Include="..\..\alterations\Elsa.Alterations\Elsa.Alterations.csproj" />
-		<ProjectReference Include="..\..\labels\Elsa.Labels\Elsa.Labels.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\alterations\Elsa.Alterations\Elsa.Alterations.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\labels\Elsa.Labels\Elsa.Labels.csproj" />
+		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Common\Elsa.Common.csproj" />
+		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Identity\Elsa.Identity.csproj" />
+		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
 	</ItemGroup>
 	
 </Project>

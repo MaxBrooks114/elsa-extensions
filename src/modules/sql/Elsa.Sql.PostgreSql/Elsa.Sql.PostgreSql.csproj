@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Elsa.Sql\Elsa.Sql.csproj" />
+    <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\sql\Elsa.Sql\Elsa.Sql.csproj" />
   </ItemGroup>
 
 </Project>

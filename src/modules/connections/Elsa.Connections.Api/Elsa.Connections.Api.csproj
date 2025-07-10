@@ -7,9 +7,9 @@
 	
 
 	<ItemGroup>
-		<ProjectReference Include="..\Elsa.Connections.Core\Elsa.Connections.Core.csproj" />
-		<ProjectReference Include="..\Elsa.Connections.Models\Elsa.Connections.Models.csproj" />
-		<ProjectReference Include="..\Elsa.Connections.Persistence\Elsa.Connections.Persistence.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\connections\Elsa.Connections.Core\Elsa.Connections.Core.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\connections\Elsa.Connections.Models\Elsa.Connections.Models.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\connections\Elsa.Connections.Persistence\Elsa.Connections.Persistence.csproj" />
 		<ProjectReference Include="D:\repos\elsa-core-main\src\common\Elsa.Api.Common\Elsa.Api.Common.csproj" />
 	</ItemGroup>
 	

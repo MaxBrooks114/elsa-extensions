@@ -11,8 +11,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\persistence\Elsa.Persistence.EFCore.SqlServer\Elsa.Persistence.EFCore.SqlServer.csproj" />
-		<ProjectReference Include="..\Elsa.Agents.Persistence.EFCore\Elsa.Agents.Persistence.EFCore.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\persistence\Elsa.Persistence.EFCore.SqlServer\Elsa.Persistence.EFCore.SqlServer.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\agents\Elsa.Agents.Persistence.EFCore\Elsa.Agents.Persistence.EFCore.csproj" />
 	</ItemGroup>
 
 </Project>

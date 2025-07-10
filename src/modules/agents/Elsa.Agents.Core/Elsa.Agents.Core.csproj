@@ -21,7 +21,7 @@
 
 
     <ItemGroup>
-      <ProjectReference Include="..\Elsa.Agents.Models\Elsa.Agents.Models.csproj" />
+      <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\agents\Elsa.Agents.Models\Elsa.Agents.Models.csproj" />
 		<ProjectReference Include="D:\repos\elsa-core-main\src\modules\Elsa.Common\Elsa.Common.csproj" />
     </ItemGroup>
 

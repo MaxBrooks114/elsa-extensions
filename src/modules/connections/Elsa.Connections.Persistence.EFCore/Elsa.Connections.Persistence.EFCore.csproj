@@ -6,8 +6,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\persistence\Elsa.Persistence.EFCore.Common\Elsa.Persistence.EFCore.Common.csproj" />
-		<ProjectReference Include="..\Elsa.Connections.Persistence\Elsa.Connections.Persistence.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\persistence\Elsa.Persistence.EFCore.Common\Elsa.Persistence.EFCore.Common.csproj" />
+		<ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\connections\Elsa.Connections.Persistence\Elsa.Connections.Persistence.csproj" />
 	</ItemGroup>
 
 </Project>

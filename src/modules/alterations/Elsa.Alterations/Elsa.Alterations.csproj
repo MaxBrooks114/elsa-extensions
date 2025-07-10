@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Elsa.Alterations.Core\Elsa.Alterations.Core.csproj" />
+        <ProjectReference Include="D:\repos\elsa-extensions-main\src\modules\alterations\Elsa.Alterations.Core\Elsa.Alterations.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>
